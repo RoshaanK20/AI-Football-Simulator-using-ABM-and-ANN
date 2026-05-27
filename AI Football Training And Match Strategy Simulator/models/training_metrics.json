@@ -1,0 +1,18 @@
+{
+  "rows": 1600.0,
+  "training_rows": 1280.0,
+  "test_rows": 320.0,
+  "pass_success_rows": 782.0,
+  "pass_failure_rows": 818.0,
+  "epochs_requested": 20.0,
+  "epochs_trained": 20.0,
+  "test_loss": 0.006045013200491667,
+  "test_mae": 0.02911309339106083,
+  "pass_accuracy": 0.971875,
+  "pass_precision": 0.9741935483870968,
+  "pass_recall": 0.967948717948718,
+  "true_positives": 151.0,
+  "true_negatives": 160.0,
+  "false_positives": 4.0,
+  "false_negatives": 5.0
+}

@@ -1,0 +1,44 @@
+AI Football ANN Training Report
+
+Training status: SUCCESSFULLY TRAINED
+
+Dataset
+- Total synthetic rows: 1600
+- Training rows: 1280
+- Test rows: 320
+- Pass success rows: 782
+- Pass failure rows: 818
+- Input features: stamina, distance_goal, nearby_defenders, passing_accuracy, match_minute
+- Prediction targets: pass_success, goal_probability, fatigue_risk
+
+Model
+- Algorithm: Feedforward Artificial Neural Network
+- Epochs requested: 20
+- Epochs trained: 20
+
+Evaluation
+- Pass success accuracy: 97.19%
+- Precision: 97.42%
+- Recall: 96.79%
+- Test MAE: 0.0291
+- Test loss: 0.0060
+- True positives: 151
+- True negatives: 160
+- False positives: 4
+- False negatives: 5
+
+Saved Files
+- Model: football_ann.keras
+- Scaler: football_scaler.joblib
+- Metrics JSON: training_metrics.json
+- Training dataset CSV: data/training_dataset.csv
+
+Explanation
+The ANN was trained on synthetic football match situations. Each row contains stamina,
+distance from goal, nearby defenders, passing accuracy, and match minute. The model
+learns to predict pass success, goal probability, and fatigue risk.
+
+The dataset is intentionally controlled for a semester project. Pass success is generated
+from an explainable football rule: stamina and passing accuracy increase the chance, while
+nearby defenders, long distance, and late match minutes reduce it. Because the labels follow
+this clear rule, the ANN can learn the pattern with high accuracy.
