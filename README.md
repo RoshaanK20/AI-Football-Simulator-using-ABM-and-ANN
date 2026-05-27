@@ -315,7 +315,6 @@ The AI component includes:
 BS Artificial Intelligence
 BAI-24S-002
 
-Instructor: Sir Tayyab
 
 ---
 
